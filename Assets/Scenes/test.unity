@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 903522036fa8f4db1afe9cd518c18219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseManagger: {fileID: 372073213}
+  mouseManager: {fileID: 372073213}
   size: 30
   Deg: 360
   vert:
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1148579236}
-  mouseManagger: {fileID: 372073213}
+  mouseManager: {fileID: 372073213}
   r: 10
   horiDeg: 0
   vertDeg: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8c4703d0efd44ba8177d57c2a54144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseManagger: {fileID: 372073213}
+  mouseManager: {fileID: 372073213}
   main: {fileID: 668660485}
   selctedMat: {fileID: 2100000, guid: a8cc810997b8c4368b82fd80f070aa47, type: 2}
 --- !u!4 &1459145971
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   s: {fileID: 1459145969}
-  mouseManagger: {fileID: 372073213}
+  mouseManager: {fileID: 372073213}
 --- !u!114 &1573355574
 MonoBehaviour:
   m_ObjectHideFlags: 0

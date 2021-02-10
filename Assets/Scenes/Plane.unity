@@ -282,7 +282,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7DE8\u96C6"
+  m_Text: Edit
 --- !u!222 &19623730
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u56DE\u8EE2"
+  m_Text: Rotation
 --- !u!222 &60337520
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1840,7 +1840,7 @@ GameObject:
   - component: {fileID: 1922597531}
   - component: {fileID: 1922597530}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: CameraTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1946,7 +1946,7 @@ GameObject:
   - component: {fileID: 1927830064}
   - component: {fileID: 1927830066}
   m_Layer: 0
-  m_Name: koithu
+  m_Name: mainModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   M: {fileID: 2100000, guid: aaf01e85bfb4c481b9d7d6afd9ee93d8, type: 2}
   Mat: {fileID: 2100000, guid: 0ef88d21536e84c29b5028566bf7c215, type: 2}
   vertics: []
-  sample:
+  Model:
     faces: []
     faceCount: 0
     verticies: []
@@ -2118,7 +2118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u79FB\u52D5"
+  m_Text: Move
 --- !u!222 &2079092794
 CanvasRenderer:
   m_ObjectHideFlags: 0

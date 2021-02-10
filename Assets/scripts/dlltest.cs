@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using libFSTest;
+//FSライブラリが動くかテストしたやつ
 public class dlltest : MonoBehaviour
 {
     // Start is called before the first frame update

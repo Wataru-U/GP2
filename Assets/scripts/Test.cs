@@ -7,6 +7,8 @@ using libFSTest;
 using libFSTest.MeshController;
 using System.Threading.Tasks;
 
+//ボツになったやつのメインのところ
+
 [RequireComponent(typeof(Camera))]
 public class Test : MonoBehaviour
 {
@@ -42,8 +44,8 @@ public class Test : MonoBehaviour
         mesh = GetComponent<MeshFilter>().mesh;
         M = this.GetComponent<Renderer>().material;
 
-        pointMat = new Material(Shader.Find("MainPoints"));
-        lineMat = new Material(Shader.Find("MainLines"));
+        pointMat = new Material(Shader.Find("testSencePoints"));
+        lineMat = new Material(Shader.Find("testSenceLine"));
 
         meshCollider = gameObject.GetComponent<MeshCollider>();
     }
@@ -65,7 +67,7 @@ public class Test : MonoBehaviour
             ReculculatePoints();
             ReculcurateLines();
         }
-
+        //描画
         mesh.SetVertices(mainVertics);
         mesh.SetTriangles(mainTriangles, 0);
         mesh.RecalculateBounds();

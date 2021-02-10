@@ -53,14 +53,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\camcam.cs" />
-     <Compile Include="Assets\scripts\CameraMove.cs" />
-     <Compile Include="Assets\scripts\CametaTranslation.cs" />
+     <Compile Include="Assets\scripts\Camera\camcam.cs" />
+     <Compile Include="Assets\scripts\Camera\CameraMove.cs" />
+     <Compile Include="Assets\scripts\Camera\CametaTranslation.cs" />
      <Compile Include="Assets\scripts\dlltest.cs" />
      <Compile Include="Assets\scripts\line.cs" />
      <Compile Include="Assets\scripts\MouseManager.cs" />
      <Compile Include="Assets\scripts\Panel.cs" />
-     <Compile Include="Assets\scripts\PlaneSqripts\Positions.cs" />
+     <Compile Include="Assets\scripts\PlaneSqripts\MainModel.cs" />
      <Compile Include="Assets\scripts\PlaneSqripts\Selected.cs" />
      <Compile Include="Assets\scripts\ray.cs" />
      <Compile Include="Assets\scripts\SelectedMesh.cs" />
@@ -70,6 +70,8 @@
      <None Include="Assets\Shader\MainLines.shader" />
      <None Include="Assets\Shader\MainPoints.shader" />
      <None Include="Assets\Shader\dotnl.shader" />
+     <None Include="Assets\Shader\testSenceLine.shader" />
+     <None Include="Assets\Shader\testSencePoints.shader" />
      <None Include="Assets\Shader\selected.shader" />
      <None Include="Assets\Shader\PlanePoints.shader" />
      <None Include="Assets\Shader\NewUnlitShader.shader" />

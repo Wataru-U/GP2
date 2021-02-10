@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using libFSTest.MeshController;
-
+//選択されたところの色を変えるところ
+//モデルから選択されたところを描画してるだけ
 public class Selected : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject mainObj;
-    private Positions mainSqript;
+    private MainModel mainSqript;
     Polygon.Mesh mainMesh;
     int selectedFaceNum;
 
@@ -17,8 +18,8 @@ public class Selected : MonoBehaviour
 
     void Start()
     {
-        mainSqript = mainObj.GetComponent<Positions>();
-        mainMesh = mainSqript.sample;
+        mainSqript = mainObj.GetComponent<MainModel>();
+        mainMesh = mainSqript.Model;
         selectedTriangles = new List<int>();
         selectedMesh = GetComponent<MeshFilter>().mesh;
     }

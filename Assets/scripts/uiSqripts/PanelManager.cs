@@ -10,11 +10,11 @@ public class PanelManager : MonoBehaviour
     //インスペクターウィンドウからゲームオブジェクトを設定する
     [SerializeField] GameObject setButton;
     [SerializeField] GameObject Edit2Panel;
-    private Positions mainSqript;
+    private MainModel mainSqript;
     private EditMode editMode;
     void Start()
     {
-        mainSqript = main.GetComponent<Positions>();
+        mainSqript = main.GetComponent<MainModel>();
         
     }
 
@@ -29,7 +29,6 @@ public class PanelManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("");
             setButton.SetActive(true);
             Edit2Panel.SetActive(false);
         }

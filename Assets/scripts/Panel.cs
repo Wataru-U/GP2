@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//範囲選択の白いところ
 public class Panel : MonoBehaviour
 {
     public GameObject s;
@@ -25,6 +25,7 @@ public class Panel : MonoBehaviour
         {
             if(Input.GetMouseButton(0))
             {
+                //位置と大きさをマウスに合わせる
                 var startPos = s.GetComponent<SelectedMesh>().mouseStartPos;
                 var P = Input.mousePosition;
                 var left = new Vector2(Mathf.Min(startPos.x,P.x),Mathf.Min(startPos.y,P.y));
