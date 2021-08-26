@@ -1,4 +1,3 @@
-<img width="1157" alt="スクリーンショット 2021-08-26 17 37 57" src="https://user-images.githubusercontent.com/43666946/130930632-198b2af6-6e64-41b3-b3fa-03571c9d17e1.png">
 # モデリングソフトもどき(Unity)
 Model シーン
 
@@ -8,3 +7,8 @@ Model シーン
   モードに変更
   
   初めは　編集モードでに変更して　白い面にカーソルを合わせて頂点と面を作成できる
+  makeFace で面を作成
+  <img width="1157" alt="スクリーンショット 2021-08-26 17 37 57" src="https://user-images.githubusercontent.com/43666946/130930632-198b2af6-6e64-41b3-b3fa-03571c9d17e1.png">
+  カーソルを合わせてクリックすると面の選択ができる
+  選択中の面は緑になる
+  クリックしたままカーソルを動かすと面の平行移動
