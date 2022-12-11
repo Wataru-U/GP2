@@ -131,7 +131,7 @@ public class MainModel : MonoBehaviour
             triangles = Model.Triangles();
             lines = Model.SarchEdge().ToArray();
             LineDraw = true;
-            draw = true;
+            draw = false;
         }
         if(Input.GetKeyDown(KeyCode.P))
         {
