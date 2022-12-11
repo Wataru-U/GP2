@@ -1,5 +1,8 @@
 # モデリングソフトもどき(Unity)
 Model シーン
+ライブラリはこっち
+https://github.com/Wataru-U/libFSTest
+
 
 ### マウス操作
 左上のボタンで　<br>
